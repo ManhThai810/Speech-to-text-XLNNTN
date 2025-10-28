@@ -7,6 +7,11 @@ __pycache__/
 # Distribution / Packaging
 venv/
 
+# Installation artifacts (RECOMMENDED ADDITIONS)
+*.egg-info/  # Bỏ qua metadata cài đặt cho chế độ -e (editable mode)
+build/       # Bỏ qua thư mục build tạm thời
+dist/        # Bỏ qua thư mục phân phối
+
 # Unit Test
 .pytest_cache/
 
